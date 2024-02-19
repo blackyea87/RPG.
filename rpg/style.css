@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+#arena {
+    height: 100%;
+    width: 100%;
+    background-image: url("./assets/backgrounds/cave-background.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+#jogador {
+    top: calc(100% - 300px);
+    left: 40px;
+    position: absolute;
+    background-image: url('./assets/walking/facing-right.gif');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 65px;
+    height: 100px;
+    transition: 100ms;
+}
